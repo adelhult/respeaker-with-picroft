@@ -3,7 +3,7 @@
 
 Note: this documentation was only written as a reminder for myself on how to do this.
 
-First, follow these [instructions](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/ReSpeaker-4-Mic-Array-for-Raspberry-Pi.md) provided by Seeeds:
+These first instructions are taken from Seeeds offical [documentation](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/ReSpeaker-4-Mic-Array-for-Raspberry-Pi.md)
 
 Get the voice card source code.
 ```
