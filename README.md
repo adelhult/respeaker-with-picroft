@@ -1,4 +1,4 @@
-# Respeaker 4-Mic Array with Picroft
+# Respeaker 4-Mic Array with Picroft :sound:
 **How i got the [Seeeds ReSpeaker 4-Mic Array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html) working together with [Picroft](https://github.com/MycroftAI/enclosure-picroft) (2018-09-11 Stretch Lightning) running on a Raspberry Pi 3B+.**
 
 Note: this documentation was only written as a reminder for myself on how to do this.
