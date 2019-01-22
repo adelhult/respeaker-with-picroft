@@ -1,5 +1,5 @@
 # Respeaker 4-Mic Array with Picroft :sound:
-**How i got the [Seeeds ReSpeaker 4-Mic Array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html) working together with [Picroft](https://github.com/MycroftAI/enclosure-picroft) (2018-09-11 Stretch Lightning) running on a Raspberry Pi 3B+.**
+**How I got the [Seeeds ReSpeaker 4-Mic Array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html) working together with [Picroft](https://github.com/MycroftAI/enclosure-picroft) (2018-09-11 Stretch Lightning) running on a Raspberry Pi 3B+.**
 
 Note: this documentation was only written as a reminder for myself on how to do this.
 
@@ -40,7 +40,7 @@ To fix the audio output I tried to remove the *suspend on idle* setting in this 
 
 Using this command you can see that the audio level for the output is set to 0%.
 ```
-pactl list-sinks
+pacmd list-sinks
 ```
 To change the volume use:
 ```
