@@ -29,7 +29,22 @@ Now you should be able to try the microphone:
 arecord -Dac108 -f S32_LE -r 16000 -c 4 hello.wav
 aplay hello.wav 
 ```
-However, to get the microphone to actually work together with Mycroft you have to download pulseaudio.
+However, to get the microphone to actually work together with Mycroft you have to change a couple of ALSA config files and create an asymmetric ALSA device.
+
+Create a the file `~/.asoundrc` and add the following lines of code.
+```
+pcm.!default {
+    type asym
+    playback.pcm "hw:0,0"
+    capture.pcm "hw:1,0"
+}
+```
+
+Replace the default settings in the `/etc/asound.conf` file with the same config code as well. Then reboot. The microhphone should now be working correctly together with Mycroft.
+
+<hr>
+
+Alternativly you can install pulse audio and follow these instructions:
 ```
 sudo apt-get install pulseaudio
 reboot
